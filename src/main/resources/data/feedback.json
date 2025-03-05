@@ -1,0 +1,177 @@
+[
+  {
+    "timestamp": "02/03/2025 14:15:23",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@email.com",
+    "score": 5,
+    "feedback": "Excellent lab, exceeded expectations."
+  },
+  {
+    "timestamp": "02/03/2025 14:17:45",
+    "name": "Ishita Verma",
+    "email": "ishita.verma@email.com",
+    "score": 4,
+    "feedback": "Very good experience, but can improve timings."
+  },
+  {
+    "timestamp": "02/03/2025 14:20:12",
+    "name": "Rohan Gupta",
+    "email": "rohan.gupta@email.com",
+    "score": 3,
+    "feedback": "The lab was okay but needs more equipment."
+  },
+  {
+    "timestamp": "02/03/2025 14:22:50",
+    "name": "Ananya Singh",
+    "email": "ananya.singh@email.com",
+    "score": 5,
+    "feedback": "Amazing facilities and helpful staff!"
+  },
+  {
+    "timestamp": "02/03/2025 14:25:33",
+    "name": "Kabir Mehta",
+    "email": "kabir.mehta@email.com",
+    "score": 4,
+    "feedback": "Great lab, but the location is hard to find."
+  },
+  {
+    "timestamp": "02/03/2025 14:28:10",
+    "name": "Priya Nair",
+    "email": "priya.nair@email.com",
+    "score": 5,
+    "feedback": "Excellent service and knowledgeable staff!"
+  },
+  {
+    "timestamp": "02/03/2025 14:30:45",
+    "name": "Aditya Rao",
+    "email": "aditya.rao@email.com",
+    "score": 4,
+    "feedback": "Good experience overall, but parking was an issue."
+  },
+  {
+    "timestamp": "02/03/2025 14:33:22",
+    "name": "Meera Iyer",
+    "email": "meera.iyer@email.com",
+    "score": 3,
+    "feedback": "Decent facilities, but staff could be more helpful."
+  },
+  {
+    "timestamp": "02/03/2025 14:35:55",
+    "name": "Arjun Patel",
+    "email": "arjun.patel@email.com",
+    "score": 5,
+    "feedback": "Highly recommend this lab for its professionalism!"
+  },
+  {
+    "timestamp": "02/03/2025 14:38:40",
+    "name": "Sanya Kapoor",
+    "email": "sanya.kapoor@email.com",
+    "score": 4,
+    "feedback": "The lab was great, but the waiting time was long."
+  },
+  {
+    "timestamp": "02/03/2025 15:00:12",
+    "name": "Rajesh Khanna",
+    "email": "rajesh.khanna@email.com",
+    "score": 5,
+    "feedback": "Outstanding service and very clean facilities."
+  },
+  {
+    "timestamp": "02/03/2025 15:05:34",
+    "name": "Sneha Mishra",
+    "email": "sneha.mishra@email.com",
+    "score": 4,
+    "feedback": "Good experience, but the staff could be more responsive."
+  },
+  {
+    "timestamp": "02/03/2025 15:10:45",
+    "name": "Amitabh Das",
+    "email": "amitabh.das@email.com",
+    "score": 3,
+    "feedback": "The lab was okay, but some equipment was not working."
+  },
+  {
+    "timestamp": "02/03/2025 15:15:23",
+    "name": "Pooja Reddy",
+    "email": "pooja.reddy@email.com",
+    "score": 5,
+    "feedback": "Fantastic experience! Highly recommended."
+  },
+  {
+    "timestamp": "02/03/2025 15:20:19",
+    "name": "Vikram Joshi",
+    "email": "vikram.joshi@email.com",
+    "score": 4,
+    "feedback": "Well-maintained lab with helpful staff."
+  },
+  {
+    "timestamp": "02/03/2025 15:35:12",
+    "name": "Neha Jain",
+    "email": "neha.jain@email.com",
+    "score": 4,
+    "feedback": "Good overall, but the location is a bit hard to reach."
+  },
+  {
+    "timestamp": "02/03/2025 16:00:12",
+    "name": "Akash Singh",
+    "email": "akash.singh@email.com",
+    "score": 5,
+    "feedback": "The lab was excellent, and the staff was very professional."
+  },
+  {
+    "timestamp": "02/03/2025 16:05:23",
+    "name": "Ritika Sharma",
+    "email": "ritika.sharma@email.com",
+    "score": 4,
+    "feedback": "Good experience, but the waiting time was a bit long."
+  },
+  {
+    "timestamp": "02/03/2025 16:10:45",
+    "name": "Siddharth Verma",
+    "email": "siddharth.verma@email.com",
+    "score": 3,
+    "feedback": "Decent lab, but the equipment needs maintenance."
+  },
+  {
+    "timestamp": "02/03/2025 16:15:33",
+    "name": "Anjali Nair",
+    "email": "anjali.nair@email.com",
+    "score": 5,
+    "feedback": "Amazing experience! The facilities were top-notch."
+  },
+  {
+    "timestamp": "02/03/2025 16:20:19",
+    "name": "Kunal Mehta",
+    "email": "kunal.mehta@email.com",
+    "score": 4,
+    "feedback": "Great lab, but parking was an issue."
+  },
+  {
+    "timestamp": "02/03/2025 16:40:15",
+    "name": "Vikram Patel",
+    "email": "vikram.patel@email.com",
+    "score": 5,
+    "feedback": "The lab exceeded my expectations. Great service!"
+  },
+  {
+    "timestamp": "02/03/2025 16:45:30",
+    "name": "Megha Kapoor",
+    "email": "megha.kapoor@email.com",
+    "score": 4,
+    "feedback": "Good experience, but the staff could be more prompt."
+  },
+  {
+    "timestamp": "02/03/2025 16:50:45",
+    "name": "Arjun Malhotra",
+    "email": "arjun.malhotra@email.com",
+    "score": 3,
+    "feedback": "Average facilities. Some improvements are needed."
+  },
+  {
+    "timestamp": "02/03/2025 17:00:25",
+    "name": "Ravi Kumar",
+    "email": "ravi.kumar@email.com",
+    "score": 4,
+    "feedback": "The lab was great, but the waiting area could be improved."
+  }
+]
