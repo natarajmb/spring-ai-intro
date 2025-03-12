@@ -17,16 +17,6 @@ spring:
         embedding:
           options:
             model: llama3.2
-    # configured but not used see OpenAiConfig.java
-    openai:
-        base-url: https://api.openai.com/
-        api-key: ${LLM_API_KEY}
-        chat:
-          options:
-            model: llama3-8b-8192
-        embedding:
-          options:
-            model: text-embedding-ada-002
    # end of llms configuration
     vectorstore:
       redis:

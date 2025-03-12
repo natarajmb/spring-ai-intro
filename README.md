@@ -87,22 +87,22 @@ Here is a step-by-step guide to setting up Ollama on your system:
      ollama -v
      ```
 4. Pull a Model
-   - Use the command below to download your first model (e.g., “lama3.2:latest”):
+   - Use the command below to download your first model (e.g., “llama3.2:latest”):
      ```shell
-     ollama pull gemma
+     ollama pull llama3.2:latest
      ```
    - List all available models:
      ```shell
      ollama list
      ```
 5. Run a Model
-   - To run a model like “lama3.2:latest,” use:
+   - To run a model like “llama3.2:latest,” use:
      ```shell
-     ollama run lama3.2:latest
+     ollama run llama3.2:latest
      ``` 
    - Verify it works
-     ```shell
-     who are you
+     ```text
+     >>> who are you
      ```
    - Should see output like 
      ```text
