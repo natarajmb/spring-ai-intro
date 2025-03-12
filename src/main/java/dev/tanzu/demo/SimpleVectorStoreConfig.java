@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConditionalOnProperty(name = "app.ai.vectorstore", havingValue = "simple")
 @EnableAutoConfiguration(
     exclude = {
         RedisAutoConfiguration.class

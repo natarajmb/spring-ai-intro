@@ -1,7 +1,6 @@
 app:
   ai:
-    provider: openai  # choose between ollama, openai, azure
-    vectorstore: simple # simple, redis, pgvector
+    provider: ollama  # choose between ollama, openai, azure
 spring:
   application:
     name: spring-ai-intro
@@ -9,6 +8,7 @@ spring:
     chat:
       client:
         enabled: false # disable auto configuration of ChatClient, there are multiple LLM implementations
+    # active configuration see app.ai.provider
     ollama:
         base-url: http://localhost:11434/
         chat:
@@ -17,15 +17,17 @@ spring:
         embedding:
           options:
             model: llama3.2
+    # configured but not used see OpenAiConfig.java
     openai:
         base-url: https://api.openai.com/
-        api-key: ${OPENAI_API_KEY}
+        api-key: ${LLM_API_KEY}
         chat:
           options:
-            model: gpt-4o
+            model: llama3-8b-8192
         embedding:
           options:
-            model: text-embedding-3-small
+            model: text-embedding-ada-002
+   # end of llms configuration
     vectorstore:
       redis:
         initialize-schema: true
