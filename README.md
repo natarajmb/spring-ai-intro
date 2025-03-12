@@ -52,8 +52,9 @@ https://docs.spring.io/spring-ai/reference/
 - Familiarity with Spring
 - Setup Ollama locally (lab instructions) or get an API key (personal challenge) to access to LLMs
 
-_Note: Running ollama locally is generally slow, be patient and wait for it complete. You can check on Ollama 
-console for info & errors on execution requests_
+> [!NOTE] 
+> Running ollama locally is generally slow, be patient and wait for it complete. You can check on Ollama 
+> console for info & errors on execution requests.
 
 ### How to setup Ollama
 
@@ -117,7 +118,8 @@ download the API keys, you would need Spring AI app to be configured to work wit
 `pom.xml` and `application.yaml`. Look at the Spring AI documentation site (link below) to help configure your chosen 
 provider. https://docs.spring.io/spring-ai/reference/api/index.html   
 
-_Note: Ollama running locally doesn't need a API key_
+> [!NOTE] 
+> Ollama running locally does not need a API key
 
 #### Google Gemini
 
@@ -143,9 +145,9 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:g
     }]
 }' | jq .candidates[].content.parts[].text
 ```
-
 #### Hugging Face
 
+#### How to get Hugging Face API key
 - Visit the Hugging Face website (https://huggingface.co) and sign up for an account if you don't have one already.
 - Log in to your Hugging Face account.
 - Click on your profile icon in the top right corner of the page.
@@ -167,8 +169,9 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:g
     -H "Authorization: Bearer $LLM_API_KEY" \
     -d '{"inputs": "Who are you"}' | jq .[].generated_text
     ````
-
 #### Groq
+
+#### How to get Groq API key
 
 - Visit the Groq Console website at (https://console.groq.com/)
 - Sign up for a new account if you don't have one, or log in to your existing account.
@@ -202,7 +205,7 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:g
 ./mvnw clean spring-boot:run
 ```
 
-#### Execute a Simple Chat Query
+#### Execute a simple chat query
 
 After the application has started successfully, we can run a simple chat query.
 
@@ -251,8 +254,8 @@ You can read more on [ChatClient API Documentation](https://docs.spring.io/sprin
 
 #### Run the application to execute simple queries
 
-Let's rerun the application. If its not running, before executing the next step. Some of this answers might be 
-different for you as LLMs are not always deterministic.
+Let's rerun the application. If its not running already. Some of this answers might be  different for you as LLMs 
+are not always deterministic.
 
 Try the query
 ```shell
@@ -292,8 +295,9 @@ Here is the list of all 28 states of India along with their capitals:
 27. Uttar Pradesh - Lucknow
 28. Uttarakhand - Dehradun
 ```
-_Note: This isn't exact list, as it doesn't show union territory. Some models are more accurate, hence you need to 
-try out the model that works best for your use-case_ 
+> [!NOTE] 
+> This isn't exact list, as it doesn't show union territory. Some models are more accurate, hence you need to 
+> try out the model that works best for your use-case. 
 
 Try the query
 ```shell
